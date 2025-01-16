@@ -1,0 +1,8 @@
+#   Soma de elementos da lista:
+
+lista = [20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10]
+
+# Soma os itens da lista
+soma = sum(lista)  
+
+print(soma)    # Saida:  165

@@ -1,0 +1,11 @@
+#   Aplicar uma função a todos os elementos da lista:
+
+def multiplicar_por_2(x):
+    return x * 2
+
+lista = [13, 24 , 35, 36, 47, 58]
+
+# Aplica a função multiplicar_por_2 a cada elemento da lista
+resultado = list(map(multiplicar_por_2, lista))
+
+print(resultado)    # Saida: [26, 48, 70, 72, 94, 116]

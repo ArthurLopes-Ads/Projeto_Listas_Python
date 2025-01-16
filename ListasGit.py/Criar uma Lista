@@ -1,0 +1,5 @@
+#   Criar uma lista e imprimir:
+
+lista = [1, 2, 3, 4, 5]
+
+print(lista)    # Saida: [1, 2, 3, 4, 5]

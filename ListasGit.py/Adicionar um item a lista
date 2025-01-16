@@ -1,0 +1,9 @@
+#   Adicionar um item a lista:
+
+lista = ["Melancia","Maça","Laranja","Uva","Pera"]
+
+# Adiciona item na lista
+lista.append("Chocolate")   
+
+print(lista)    # Saida: ['Melancia', 'Maça', 'Laranja', 'Uva', 'Pera', 'Chocolate'] 
+

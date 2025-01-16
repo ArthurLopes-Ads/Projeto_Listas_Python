@@ -1,0 +1,8 @@
+#   Filtrar números pares de uma lista:
+
+lista = [24, 55, 100, 49, 62, 14, 17, 76, 60, 61]
+
+# Apenas os numeros pares da listas
+numeros_pares = [num for num in lista if num % 2 == 0]  
+
+print(numeros_pares)    # Saida: [24, 100, 62, 14, 76, 60]

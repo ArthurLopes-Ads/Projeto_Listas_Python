@@ -1,0 +1,9 @@
+#   Criar uma lista de quadrados:
+
+def imprimir_quadrados(lista):
+    for num in lista:
+        print(num**2)
+
+lista = [10, 20, 30, 5, 7]
+
+imprimir_quadrados(lista)   # Saida: [100, 400, 900, 25, 49]

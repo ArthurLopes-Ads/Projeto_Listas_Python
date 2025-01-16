@@ -1,0 +1,11 @@
+#   Contar a quantidade de ocorrências de um item:
+
+palavras = ["livro", "casa", "mar", "carro", "floresta", "livro", "computador", "amigo", "música", "cidade", "viagem", "carro", "amigo"]
+
+palavra_especifica = "livro"   
+
+# Conta quantas vezes o item livro se repete na lista
+contador = palavras.count(palavra_especifica)   
+
+print(f"A palavra se repeter '{palavra_especifica}' aparece {contador} vezes na lista de palavras !")   
+# Saida: A palavra se repeter 'livro' aparece 2 vezes na lista de palavras !

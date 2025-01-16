@@ -1,0 +1,10 @@
+#   Fazer uma combinação de listas em formato de tupla:
+
+# Duas listas de exemplo
+lista1 = [1, 2, 3]
+lista2 = ['a', 'b', 'c']
+
+# Combinando as listas em tuplas
+resultado = list(zip(lista1, lista2))
+
+print(resultado)  # Saída: [(1, 'a'), (2, 'b'), (3, 'c')]

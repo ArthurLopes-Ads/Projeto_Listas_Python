@@ -1,0 +1,8 @@
+#   Remover duplicatas de uma lista:
+
+lista_repetida = [1, 2, 3, 4, 2, 1, 5]
+
+# Retira as repetições da lista
+numeros_unicos = list(set(lista_repetida))  
+
+print(numeros_unicos)   #Saida: [1, 2, 3, 4, 5]

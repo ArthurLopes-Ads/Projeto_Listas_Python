@@ -1,0 +1,6 @@
+#   Acessar um elemento pelo índice:
+
+#  índices    [0],         [1],        [2],        [3],        [4]
+lista = ["Calculadora","Impressora","Notebook","Carregador","Teclado"]
+
+print(lista[2])    # Saida: Notebook

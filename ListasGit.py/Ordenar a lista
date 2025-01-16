@@ -1,0 +1,8 @@
+#   Ordenar a lista:
+
+lista = [212, 234, 65 , 1, 4, 34, 0,123, 88, 4, 8, 3, 421]
+
+# Ordena a lista
+ordenando_a_lista = lista.sort()   
+
+print(lista)    # Saida: [0, 1, 3, 4, 4, 8, 34, 65, 88, 123, 212, 234, 421]

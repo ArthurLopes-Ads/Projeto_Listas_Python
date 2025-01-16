@@ -1,0 +1,10 @@
+#   Remover um item de indice [#] lista:
+
+lista = ["Livro","Caderno","Lapis","Borracha","Caneta"]
+
+print(lista)    # Saida: ['Livro', 'Caderno', 'Lapis', 'Borracha', 'Caneta']
+
+# Exclui o item de indice [1] da lista
+del lista[1] 
+
+print(lista)    # Saida: ['Livro', 'Lapis', 'Borracha', 'Caneta']

@@ -1,0 +1,10 @@
+#   Verificar se um item está na lista de higiene:
+
+produto = str(input("Digite um produto de higiene: ")) 
+lista = ["Sabonete","Shampoo","Condicionadore","Escova de Dente","Enxaguantee Bucai","Loçõe Hidratante","Protetore Solare","Creme e Pomada","Absorvente","Sabonete Intimo"]
+
+# Procura o item na lista
+if produto.lower() in [item.lower() for item in lista]:
+    print(f"O produto selecionado {produto} esta na lista")     #   Saida: O produto selecionado "sabonete" esta na lista
+else:
+    print("Este produto não esta na lista")     #   Saida: O produto "pasta de dente" não esta na lista
